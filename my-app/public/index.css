@@ -1,0 +1,70 @@
+@keyframes bganim {
+0% {
+    background-position: 0% 50%;
+  }
+
+50%{
+    background-position: 100% 50%;
+  }
+
+100%{
+    background-position: 0% 50%;
+  }
+
+}
+
+body {
+    width: 800px;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+    background: linear-gradient(45deg, #06283D, #1363DF, #47B5FF, #DFF6FF);
+    background-size: 300% 300%;
+    animation: bganim 15s ease infinite;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    color: rgba(58, 153, 29, 0.925);
+    text-shadow: 2px 2px 1px white;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+    color: aliceblue;
+    border: 4px solid green;
+    background-color: rgba(63, 30, 15, 0.932);
+}
+
+strong {
+    font-size: 30px;
+    color: rgb(80, 207, 41);;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.coluna{
+    float: left;
+    
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.Mario {
+    width: 600px;
+    height: 300px;
+}
+
+.Mario2 {
+    color: aquamarine;
+    font-size: 25px;
+}
