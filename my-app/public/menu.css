@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Nostrud' ;
+    src: url('NOSTRUD.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+
+    background: linear-gradient(45deg, #06283D, #13dfa2, #47B5FF, #DFF6FF);
+    background-size: 400% 400%;
+    animation: bganim 15s ease infinite;
+}
+
+@keyframes bganim {
+    0% {
+        background-position: 0% 50%;
+      }
+    
+    50%{
+        background-position: 100% 50%;
+      }
+    
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+h1 {
+    font-family: 'Nostrud', Verdana, Tahoma, sans-serif;
+    font-weight: normal;
+    font-size: 4em;
+    margin: 0 auto;
+    position: absolute;top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    color: azure;
+    
+}
+
+a {
+    color: azure;
+    text-decoration: none;
+}
+
+

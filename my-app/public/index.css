@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Nostrud' ;
+    src: url('NOSTRUD.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 @keyframes bganim {
 0% {
     background-position: 0% 50%;
@@ -17,16 +24,19 @@ body {
     width: 800px;
     margin: 0 auto;
     padding: 0 20px 20px 20px;
-    background: linear-gradient(45deg, #06283D, #1363DF, #47B5FF, #DFF6FF);
-    background-size: 100% 100%;
+    background: linear-gradient(45deg, #06283D, #13dfa2, #47B5FF, #DFF6FF);
+    background-size: 400% 400%;
     animation: bganim 15s ease infinite;
 }
 
 h1 {
     font-size: 60px;
     text-align: center;
-    color: rgba(58, 153, 29, 0.925);
-    text-shadow: 2px 2px 1px white;
+    color: rgba(93, 216, 144, 0.925);
+    text-shadow: 3px 3px 1px white;
+    font-family: 'Nostrud', Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    font-size: 4em;
 }
 
 p {
