@@ -36,12 +36,19 @@ h1 {
     margin-right: -50%;
     transform: translate(-50%, -50%);
     color: azure;
+    text-shadow: 3px 3px 1px rgb(199, 49, 49);
+
     
 }
+
 
 a {
     color: azure;
     text-decoration: none;
+}
+
+a:hover {
+    color: rgba(93, 216, 144, 0.925);
 }
 
 

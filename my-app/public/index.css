@@ -39,6 +39,15 @@ h1 {
     font-size: 4em;
 }
 
+a {
+    color: rgba(93, 216, 144, 0.925);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(30, 117, 117);
+}
+
 p {
     font-size: 20px;
     text-align: center;
